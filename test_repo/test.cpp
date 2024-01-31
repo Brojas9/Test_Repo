@@ -8,6 +8,10 @@ int main(void)
 		if (a % 2 == 0)
 		{
 			printf("even");
+			if (a == 50)
+			{
+				printf("This is 50/50");
+			}
 
 		}
 		else
