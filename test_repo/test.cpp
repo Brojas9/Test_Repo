@@ -2,22 +2,22 @@
 
 int main(void)
 {
-	int a = 0;
-	while (a < 100)
+	for (int i = 0; i <= 100; i++)
 	{
-		if (a % 2 == 0)
+		if (i % 2 == 0)
 		{
-			printf("even");
-			if (a == 50)
+			
+      printf("%d - Fizz", i);
+      
+      if (a == 50)
 			{
 				printf("This is 50/50");
 			}
-
+			
 		}
 		else
 		{
-			printf("odd");
-		}
+			printf("%d - Buzz", i);
 	}
 
 	return 0;
