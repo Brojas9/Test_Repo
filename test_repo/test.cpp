@@ -2,23 +2,8 @@
 
 int main(void)
 {
-	for (int i = 0; i <= 100; i++)
-	{
-		if (i % 2 == 0)
-		{
-			
-      printf("%d - Fizz", i);
-      
-      if (a == 50)
-			{
-				printf("This is 50/50");
-			}
-			
-		}
-		else
-		{
-			printf("%d - Buzz", i);
-	}
-
+	int myArray[7] = {15,20,35,75,1,2,3};
+	//Please, write your code here
+	
 	return 0;
 }
