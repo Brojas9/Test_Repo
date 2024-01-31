@@ -11,7 +11,6 @@ int main(void)
 		else
 		{
 			printf("%d - Buzz", i);
-		}
 	}
 
 	return 0;
