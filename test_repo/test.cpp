@@ -2,14 +2,19 @@
 
 int main(void)
 {
-	int i = 2;
-	while (i <= 100)
+	int a = 0;
+	while (a < 100)
 	{
-		printf("%d", i);
+		if (a % 2 == 0)
+		{
+			printf("even");
 
-		i += 2;
+		}
+		else
+		{
+			printf("odd");
+		}
 	}
-
 
 	return 0;
 }
