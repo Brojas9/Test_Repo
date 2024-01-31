@@ -6,7 +6,14 @@ int main(void)
 	{
 		if (i % 2 == 0)
 		{
-			printf("%d - Fizz", i);
+			
+      printf("%d - Fizz", i);
+      
+      if (a == 50)
+			{
+				printf("This is 50/50");
+			}
+			
 		}
 		else
 		{
