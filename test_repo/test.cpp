@@ -2,7 +2,14 @@
 
 int main(void)
 {
-	printf("Hello, world!");
+	int i = 2;
+	while (i <= 100)
+	{
+		printf("%d", i);
+
+		i += 2;
+	}
+
 
 	return 0;
 }
