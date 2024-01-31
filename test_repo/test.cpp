@@ -10,6 +10,7 @@ int main(void)
 	{
 		printf("%d\n", myArray[i]);
 	}
+	printf("Hello world!\n");
 	
 	return 0;
 }
